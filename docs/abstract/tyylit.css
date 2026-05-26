@@ -1,5 +1,5 @@
 body {
-  font-family: 'GT America Standard', sans-serif;
+  font-family: "GT America Standard", sans-serif;
   font-size: 20px;
   line-height: 1.5;
   color: #191a1b;
@@ -77,20 +77,13 @@ body {
 }
 
 
-.search {
+.searchs {
   display: flex;
   gap: 10px;
 }
 
-.search__input {
-  width: 200px;
-  height: 40px;
-  border-radius: 4px;
-  border: none;
-  padding: 0 1rem;
-}
-
-.search__button {
+.search__input__nappi {
+  width: 145px;
   height: 40px;
   border-radius: 4px;
   border: none;
@@ -98,8 +91,21 @@ body {
   cursor: pointer;
 }
 
-.search__buts {
+.submit__button__nappi {
+  height: 40px;
+  width: 145px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 0 1rem;
+}
+
+.signt__button__nappi {
+  cursor: pointer;
   background-color: #4C5FD5;
+  height: 40px;
+  width: 145px;
+  border-radius: 4px;
   color: #fff;
 }
 
@@ -153,7 +159,7 @@ body {
   max-height: 100px;
   display: flex; 
   flex-direction: column;
-   margin-top: 38px;
+  margin-top: 38px;
 }
 
 
